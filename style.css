@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(253, 69, 13);
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: .5s all ease-in-out;
+}
+
+body:hover{
+    background-color: rgb(219, 189, 18);
+}
